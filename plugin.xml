@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-ignore-ssl-error-plugin" version="1.0.0">
+    <name>Push ignore onReceivedSslError plugin</name>
+    <description>This plugin allows to fix Google plays attention with onReceivedSslError</description>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=7.1.0"/>
+        <engine name="cordova-android" version=">=7.1.0"/>
+    </engines>
+
+    <platform name="android">
+        <hook type="before_compile" src="hooks/before_compile_android.js"/>
+    </platform>
+</plugin>
