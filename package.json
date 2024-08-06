@@ -1,9 +1,9 @@
 {
-  "name": "@robo-finance/cordova-ignore-ssl-error-plugin",
+  "name": "cordova-plugin-ignore-ssl-error",
   "version": "1.0.0",
-  "description": "This plugin allows to fix Google plays attention with onReceivedSslError",
+  "description": "This plugin helps address Google Play's attention requirement with onReceivedSslError.",
   "cordova": {
-    "id": "cordova-ignore-ssl-error-plugin",
+    "id": "cordova-plugin-ignore-ssl-error",
     "platforms": [
       "android"
     ]
@@ -11,21 +11,12 @@
   "dependencies": {
   },
   "repository": {
-    "url": "git@github.com:RoboFinance/cordova-ignore-ssl-error-plugin.git"
+    "type": "git",
+    "url": "https://github.com/ipunkvizard/cordova-plugin-ignore-ssl-error"
   },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
-  ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=7.1.0"
-    },
-    {
-      "name": "cordova-android",
-      "version": ">=7.1.0"
-    }
   ],
   "author": "",
   "license": "MIT"

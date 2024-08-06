@@ -1,8 +1,12 @@
-#### Description
+# cordova-plugin-ignore-ssl-error
 
-This plugin allows fixing Google plays attention with onReceivedSslError on production releases.
+This plugin helps address Google Play's attention requirement with onReceivedSslError on production releases.
 
-#### How to install
+## Installation
 ```
-cordova plugin add "@robo-finance/cordova-ignore-ssl-error-plugin"
+cordova plugin add cordova-plugin-ignore-ssl-error
 ```
+
+## Supported Platforms
+
+- Android
